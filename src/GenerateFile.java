@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class GenerateFile{
     public static void main(String[] args) throws IOException {
-        generate(10, 1000, 50);
+        generate(5, 10000, 100);
     }
 
     private static void generate(int nrFiles, int gradeMax, int nrMon) throws IOException {

@@ -4,8 +4,8 @@ import java.io.IOException;
 public class Parallel{
 
     public static void main(String[] args) throws IOException, FileNotEqualException {
-        int threadNum = 16;
-        int fileNum = 10;
+        int threadNum = 8;
+        int fileNum = 5;
         Thread[] threads = new Thread[threadNum];
         LinkedList linkedList = new LinkedList();
         Queue queue = new Queue();

@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class Secvential extends FileReader {
     public static void main(String[] args) throws IOException, InterruptedException {
-        int fileNum = 10;
+        int fileNum = 5;
         LinkedList linkedList = new LinkedList();
         long start = System.nanoTime();
         readFromFile(fileNum, linkedList);
